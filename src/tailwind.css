@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .base-btn {
+    @apply outline-none focus:outline-none bg-white border rounded-lg px-4 py-2;
+  }
+  .btn-without-outline {
+    @apply outline-none focus:outline-none bg-transparent;
+  }
+}
+
+[x-cloak] {
+  display: none !important;
+}
